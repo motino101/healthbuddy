@@ -1,32 +1,22 @@
-import {Checkbox, Link, User, Chip, cn} from "@nextui-org/react";
+'use client';
 
-interface Label {
-  name: string;
-}
+import { Checkbox } from "@nextui-org/react";
 
 interface CustomCheckboxProps {
-  label: Label;
-  value: any;
+    children: React.ReactNode;
+    value: string;
 }
 
-export const CustomCheckbox = ({ label, value }: CustomCheckboxProps) => {
-  return (
-    <Checkbox
-      aria-label={label.name}
-      classNames={{
-        base: cn(
-          "inline-flex max-w-md w-full bg-slate-600 m-0",
-          "hover:bg-content2 items-center justify-start",
-          "cursor-pointer rounded-lg gap-2 p-4 border-2 border-transparent",
-          "data-[selected=true]:border-primary"
-        ),
-        label: "w-full ",
-      }}
-      value={value}
-    >
-      <div className="w-full flex justify-between gap-2">
-        <p className="text-lg font-semibold text-content3">{label.name}</p>
-      </div>
-    </Checkbox>
-  );
+export const CustomCheckbox = ({ children, value }: CustomCheckboxProps) => {
+    return (
+        <div className="w-full">
+            <Checkbox
+                value={value}
+                color="primary"
+                className="inline-flex w-full bg-gray-800 hover:bg-gray-700 items-center justify-start cursor-pointer rounded-lg gap-2 p-3.5 border-2 border-transparent data-[selected=true]:border-primary hover:border-gray-600"
+            >
+                <div className="text-white text-lg">{children}</div>
+            </Checkbox>
+        </div>
+    );
 };

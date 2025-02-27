@@ -1,0 +1,66 @@
+{
+    "version": "1.0",
+    "categories": [
+        {
+            "id": "initial_assessment",
+            "name": "Initial Assessment",
+            "description": "Basic information about the injury",
+            "questions": [
+                {
+                    "id": "location",
+                    "text": "Point to which body part on the diagram",
+                    "options": ["Head", "Leg", "Arm", "Foot"],
+                    "type": "multiple_choice",
+                    "required": true,
+                    "allowMultiple": false
+                },
+                {
+                    "id": "injury_cause",
+                    "text": "How did the injury happen? (e.g., fall, collision, lifting, etc.)",
+                    "type": "short_answer",
+                    "required": true,
+                    "minLength": 10
+                },
+                {
+                    "id": "onset_type",
+                    "text": "Was it sudden or gradual?",
+                    "options": ["sudden", "gradual"],
+                    "type": "multiple_choice",
+                    "required": true,
+                    "allowMultiple": false
+                }
+            ]
+        },
+        {
+            "id": "pain_assessment",
+            "name": "Pain Assessment",
+            "description": "Detailed information about pain characteristics",
+            "questions": [
+                {
+                    "id": "pain_scale",
+                    "text": "On a scale of 0-10, how would you rate your pain?",
+                    "options": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
+                    "type": "scale",
+                    "required": true,
+                    "allowMultiple": false
+                },
+                {
+                    "id": "pain_type",
+                    "text": "Is the pain sharp, dull, throbbing, or burning?",
+                    "options": ["sharp", "dull", "throbbing", "burning", "other"],
+                    "type": "multiple_choice",
+                    "required": true,
+                    "allowMultiple": true
+                },
+                {
+                    "id": "pain_frequency",
+                    "text": "Is the pain constant or does it come and go?",
+                    "options": ["constant", "come and go"],
+                    "type": "multiple_choice",
+                    "required": true,
+                    "allowMultiple": false
+                }
+            ]
+        }
+    ]
+}
