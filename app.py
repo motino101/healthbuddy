@@ -1,6 +1,7 @@
 import json
 import openai
 import os
+from dotenv import load_dotenv
 
 # load the questions
 with open('questions.json') as f:
@@ -19,7 +20,10 @@ response = "\n".join([f'{key}: {value}' for key, value in response.items()])
 print(response)
 
 # answer any question
-openai.api_key = "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"
+
+load_dotenv()  # Load environment variables from .env file
+
+openai.api_key = os.getenv('SECRET_KEY')
 def ask_openai(question):
     chat_completion = openai.chat.completions.create(
         messages=[
