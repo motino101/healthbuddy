@@ -1,0 +1,199 @@
+[
+    {
+        "text": "Point to which body part on the diagram",
+        "options": [
+            "Head",
+            "Leg",
+            "Arm",
+            "Foot"
+        ],
+        "type": "multiple choice"
+    },
+
+
+    {
+        "text": "How did the injury happen? (e.g., fall, collision, lifting, etc.)",
+        "options": [
+            ""
+        ],
+        "type": "short answer"
+    },
+
+    {
+        "text": "Was it sudden or gradual ? ",
+        "options": [
+            "sudden",
+            "gradual"
+        ],
+        "type": "multiple choice"
+    },
+
+    {
+        "text": "What symptoms did you experience right after the injury? (e.g., pain, swelling, bruising, etc.)",
+        "options": [
+            ""
+        ],
+        "type": "short answer"
+    },
+
+    {
+        "text": "Did you hear or feel a pop or snap at the time of the injury",
+        "options": [
+            "yes",
+            "no"
+        ],
+        "type": "multiple choice"
+    },
+
+    {
+        "text": "On a scale of 0-10, how would you rate your pain? Some scale",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+        ],
+        "type": "scale"
+    },
+
+    {
+        "text": "Is the pain sharp, dull, throbbing, or burning?",
+        "options": [
+            "sharp",
+            "dull",
+            "throbbing",
+            "burning",
+            "other"
+        ],
+        "type": "multiple choice"
+    },
+
+    {
+        "text": "Is the pain constant or does it come and go?",
+        "options": [
+            "constant",
+            "come and go"
+        ],
+        "type": "multiple choice"
+    },
+
+    {
+        "text": "What activities or movements increase or decrease the pain?",
+        "options": [
+            ""
+        ],
+        "type": "short answer"
+    },
+
+    {
+        "text": "Are you able to move the injured area?",
+        "options": [
+            "yes",
+            "no"
+        ],
+        "type": "multiple choice"
+    },
+
+    {
+        "text": "Has the strength of the area decreased?",
+        "options": [
+            "yes",
+            "no"
+        ],
+        "type": "multiple choice"
+    },
+
+    {
+        "text": "Have you applied any home treatments (e.g., ice, heat, rest, over-the-counter painkillers)? ",
+        "options": [
+            ""
+        ],
+        "type": "short answer"
+    },
+
+    {
+        "text": "Have you seen another doctor or healthcare provider for this injury? If yes, what treatments were recommended?",
+        "options": [
+            ""
+        ],
+        "type": "short answer"
+    },
+
+    {
+        "text": "Have you had a similar injury before?",
+        "options": [
+            ""
+        ],
+        "type": "short answer"
+    },
+
+    {
+        "text": "Any surgeries in the affected area?",
+        "options": [
+            ""
+        ],
+        "type": "short answer"
+    },
+
+    {
+        "text": "Any other health issues?",
+        "options": [
+            ""
+        ],
+        "type": "short answer"
+    },
+
+    {
+        "text": "What medications are you currently taking? ",
+        "options": [
+            ""
+        ],
+        "type": "short answer"
+    },
+
+    {
+        "text": "Do you have any known allergies, particularly to medications?",
+        "options": [
+            ""
+        ],
+        "type": "short answer"
+    },
+
+    {
+        "text": "What is your level of physical activity? What sport do you play if you do participate in them? Did you get injured while playing it?",
+        "options": [
+            ""
+        ],
+        "type": "short answer"
+    },
+
+    {
+        "text": "Do you smoke, drink alcohol or do drugs? If so, how much and how often?",
+        "options": [
+            ""
+        ],
+        "type": "short answer"
+    },
+
+    {
+        "text": "what do you hope to achieve from this consultation and treatment?",
+        "options": [
+            ""
+        ],
+        "type": "short answer"
+    },
+
+    {
+        "text": "How fast do you need it?",
+        "options": [
+            ""
+        ],
+        "type": "short answer"
+    }
+]
